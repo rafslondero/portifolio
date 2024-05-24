@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #212121;
+    color: white;
+}
+
+header {
+    background-color: #000;
+    color: ccc;
+    font-weight: bold;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Certifica-se de que o header fica acima de outros elementos */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #9F111B;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10% 60px 10%; /* Adiciona espaçamento superior para compensar o header fixo */
+    background: #212121;
+    background-image: url('background-pattern.png'); /* Adicione uma imagem de fundo se desejar */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    color: #9F111B;
+    margin: 10px 0;
+}
+
+.hero-content p {
+    font-size: 1.7em;
+    color: #999;
+    text-align: center;
+}
+
+.perfil-image {
+    max-width: 50%;
+}
+
+.perfil-image img {
+    width: 90%;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#sobre-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#img-sobre {
+    max-width: 73%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.sobre-content {
+    flex: 1; /* Faz com que cada div ocupe a mesma quantidade de espaço */
+    max-width: 700px; /* Limita a largura máxima de cada div */
+    min-width: 300px; /* Define uma largura mínima para cada div */
+}
+
+#sobre-texto {
+    background-color: #ccc;
+    padding: 6%;
+    font-size: 1.2em;
+    line-height: 140%;
+    font-weight:bold;
+    border-radius: 15px;
+    color: #292d37;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+section h2 {
+    color: #9F111B;
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+
+#habilidades-section {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#img-habilidades {
+    max-width: 60%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#img-habilidades:hover {
+    transform: scale(1.3);
+}
+
+#linguagem {
+    max-width: 60%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    color: #ccc;
+    margin-right: 5%;
+}
+
+.skills h3 {
+    color: #B11C23;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.skills li {
+    margin-bottom: 15px;
+}
+
+#contato-descricao {
+    max-width: 70%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #B11C23;
+}
+
+#contato-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#contato-info {
+    max-width: 70%;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.contato-content {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: auto;
+    flex: 1; /* Faz com que cada div ocupe a mesma quantidade de espaço */
+    max-width: 25%; /* Limita a largura máxima de cada div */
+    min-width: 20%; /* Define uma largura mínima para cada div */
+}
+
+#img-contatos {
+    width: 70%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#experiencia-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 10px;
+
+}
+
+.experiencia-content {
+    flex: 1; /* Faz com que cada div ocupe a mesma quantidade de espaço */
+    max-width: 700px; /* Limita a largura máxima de cada div */
+    min-width: 300px; /* Define uma largura mínima para cada div */
+    margin-right: 30px;
+}
+
+#experiencia-texto {
+    background-color: #ccc;
+    padding: 1% 5% 3% 5%;
+    font-size: 1.2em;
+    line-height: 150%;
+    font-weight:bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #292d37;
+}
+
+#titulo-exp {
+    color: #B11C23;
+    font-weight: bold;
+    
+}
